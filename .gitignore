@@ -1,0 +1,17 @@
+# Compiled binaries / objects
+a.out
+*.o
+*.out
+*.exe
+*.obj
+
+# Program-generated output
+output_file.txt
+
+# macOS
+.DS_Store
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp

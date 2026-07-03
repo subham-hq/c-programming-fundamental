@@ -1,0 +1,20 @@
+# Formatting rules for this repository.
+# Chosen to match the style the code was already written in (Allman braces,
+# four-space indentation), so formatting stays consistent rather than imposing
+# a foreign style. Run:  clang-format -i <file>
+---
+Language:        Cpp
+BasedOnStyle:    LLVM
+IndentWidth:     4
+TabWidth:        4
+UseTab:          Never
+ColumnLimit:     100
+BreakBeforeBraces: Allman
+PointerAlignment: Right
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+SpaceBeforeParens: ControlStatements
+SortIncludes:    false
+KeepEmptyLinesAtTheStart: false
+MaxEmptyLinesToKeep: 2
